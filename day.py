@@ -1,6 +1,6 @@
 def find_day():
 
-    print("** Use the month's number instead of name \n ** The program works for years between 1000 and 9999 \n ** If the year is a leap year, using 29 as your day will instead give you the day for the 28th")
+    print("** Use the month's number instead of name \n ** The program works for years between 1000 and 9999 \n ** If the year is a leap year, using february 29th as your date will instead give you the day for the 28th")
     year = int(input('year '))
     month = int(input('month '))
     day = int(input('day '))
